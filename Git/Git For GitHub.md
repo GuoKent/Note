@@ -74,3 +74,17 @@ fatal: unable to access ‘https://github.com/.../.git‘: Recv failure Connecti
 ```
 
 解决方法：[link](https://blog.csdn.net/qq_43546721/article/details/139506583) 使用方法一，取消代理（推荐）
+
+```python
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
+
+
+
+##### 长期有效 token
+
+```python
+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
+```
+
