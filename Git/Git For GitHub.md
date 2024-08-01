@@ -56,6 +56,17 @@ fatal: Authentication failed for 'https://github.com/.../....git/'
 
 解决方法：[link](https://blog.csdn.net/qq_37255976/article/details/134558484)
 
+1. Github 上生成公钥
+
+2. ```shell
+    # <your_token>：包括<>在内的全部字符替换成你的token
+    # <USERNAME>：包括<>在内的全部字符替换成你的username
+    # <REPO>：包括<>在内的全部字符替换成你要访问的仓库名称
+    git remote set-url origin https://<your_token>@github.com/<USERNAME>/<REPO>.git
+    git push origin main
+    # 将本机的当前公钥绑定到该项目中，后续上传就不用密码之类的
+    ```
+
 ##### 2.上传代码 hint 报错
 
 ```python
