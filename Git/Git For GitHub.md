@@ -80,11 +80,15 @@ git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
 
+##### 4.全局设置 github 账号问题
+
+参考：[link](https://www.cnblogs.com/shining-feifan/p/15489993.html)
 
 
-##### 长期有效 token
+
+##### 长期有效果公钥
 
 ```python
-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
+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  # mac
 ```
 
