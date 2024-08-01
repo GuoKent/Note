@@ -86,9 +86,3 @@ git config --global --unset https.proxy
 
 
 
-##### 长期有效果公钥
-
-```python
-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  # mac
-```
-
